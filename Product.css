@@ -1,0 +1,68 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(217deg, rgba(1, 0, 29, 0.8), rgba(11, 6, 41, 0) 70.71%), linear-gradient(127deg, rgba(199, 199, 207, 0.8), rgba(11, 2, 27, 0) 70.71%), linear-gradient(336deg, rgba(15, 15, 107, 0.8), rgba(0, 0, 10, 0) 70.71%);
+}
+
+.nav-bar {
+    height: fit-content;
+    width: 100%;
+}
+
+.nav-top {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+}
+
+#bgText {
+    color: white;
+    margin-top: -60px;
+    z-index: 2;
+    font-size: 1500%;
+    font-weight: 900;
+}
+
+header {
+    display: block;
+}
+
+.overlays {
+    margin-left: -100px;
+    margin-top: 70px;
+    width: 100vw;
+    display: inline-grid;
+    justify-items: end;
+}
+
+#circle {
+    z-index: 1;
+}
+
+#x {
+    z-index: 3;
+    position: absolute;
+}
+
+.main-content {
+    width: 40vw;
+    z-index: 6;
+}
+
+.btn-last {
+    display: flex;
+}
+
+.main-item {
+    display: flex;
+}
