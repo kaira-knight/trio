@@ -5,11 +5,63 @@ html {
     margin: 0px;
 }
 
-.bg {
+.page1 {
+    height: 100%;
+    width: 100%;
+}
+
+/* .page2 {
+    height: 100%;
+    width: 100%;
+}
+
+.page3 {
+    height: 100%;
+    width: 100%;
+}
+
+.page4 {
+    height: 100%;
+    width: 100%;
+}
+
+.page5 {
+    height: 100%;
+    width: 100%;
+} */
+.bg1 {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(217deg, rgba(1, 0, 29, 0.8), rgba(11, 6, 41, 0) 70.71%), linear-gradient(127deg, rgba(199, 199, 207, 0.8), rgba(11, 2, 27, 0) 70.71%), linear-gradient(336deg, rgba(15, 15, 107, 0.8), rgba(0, 0, 10, 0) 70.71%);
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgba(6, 2, 83, 1) 0%, rgba(2, 2, 51, 1) 44%, rgba(1, 16, 19, 1) 100%);
 }
+
+/* .bg2 {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgba(6, 2, 83, 1) 0%, rgba(2, 2, 51, 1) 44%, rgba(1, 16, 19, 1) 100%);
+}
+
+.bg3 {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgba(6, 2, 83, 1) 0%, rgba(2, 2, 51, 1) 44%, rgba(1, 16, 19, 1) 100%);
+}
+
+.bg4 {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgba(6, 2, 83, 1) 0%, rgba(2, 2, 51, 1) 44%, rgba(1, 16, 19, 1) 100%);
+}
+
+.bg5 {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(2, 1, 32);
+} */
 
 .nav-bar {
     height: fit-content;
@@ -17,12 +69,53 @@ html {
 }
 
 .nav-top {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: space-between;
     display: flex;
     position: sticky;
+}
+
+.logo {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.subLogo {
+    margin-left: -260px;
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.header-menu {
+    height:fit-content;
+    width: fit-content;
+    justify-content: center;
+}
+
+.btn1 {
+    text-decoration: none;
+    color:beige;
+    margin-inline: 40px;
+    font-weight: 500;
+}
+
+.icons {
+    height:fit-content;
+    width: fit-content;
+}
+
+ion-icon {
+    color: rgb(238, 238, 245);
+    justify-content: space-between;
+    height: 16px;
+    width: 16px;
+    margin-inline: 10px;
+    --ionicon-stroke-width: 46px;
 }
 
 #bgText {
