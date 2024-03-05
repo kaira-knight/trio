@@ -145,10 +145,12 @@ ion-icon {
 
 #bgText {
     color: white;
-    margin-top: -40px;
+    margin-top: -200px;
     z-index: 2;
-    font-size: 1300%;
+    font-size: 1400%;
     font-weight: 900;
+    margin-right: -300px;
+    opacity: 0.5;
 }
 
 header {
@@ -165,19 +167,27 @@ header {
 
 #circle {
     z-index: 1;
-    margin-left: 350px;
-    height: min-content;
+    height: 400px;
+    width: 400px;
+    margin-left: -1400px;
+    margin-top: 20px;
+    opacity: 0.2;
 }
 
 #x {
     z-index: 3;
     position: absolute;
+    height: 350px;
+    width: 550px;
+    margin-top: 25px;
+    margin-left: 330px;
 }
 
 .main-content {
     margin-left: 90px;
     width: 75vw;
     z-index: 6;
+    color: rgb(207, 190, 255);
 }
 
 .btn-last {
@@ -189,29 +199,57 @@ header {
     display: flex;
 }
 
-#h1-m {
+.main-content h1 {
     font-size: 80px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.main-content p {
+    line-height: 20px;
+    margin-top: -45px;
+    font-weight: 500;
 }
 
 #play-circle {
     display: flex;
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgb(14, 1, 133) 0%, rgb(81, 73, 150) 44%, rgb(18, 6, 117) 100%);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
     align-content: stretch;
     justify-content: center;
     align-items: center;
     margin-left: 20px;
 }
 
-#play-tri {
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid black;
+.price {
+    width: 200px;
+    font-size: larger;
+    border-radius: 30px;
+    color: rgb(248, 245, 245);
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgb(14, 1, 133) 0%, rgb(81, 73, 150) 44%, rgb(18, 6, 117) 100%);
 }
 
-.dl1 {
+#play-tri {
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid rgb(248, 245, 245);
+    margin-left: 6px;
+}
+
+.btn-last a {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* .dl1 {
     border-top: 3px solid white;
     width: 275px;
     position: absolute;
@@ -248,8 +286,4 @@ header {
 
 .main-dl2:hover {
     opacity: 1;
-}
-
-.d-t2::after {
-    content: "Read this -";
-}
+} */
