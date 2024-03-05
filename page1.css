@@ -94,12 +94,13 @@ html {
 .header-menu {
     height:fit-content;
     width: fit-content;
-    justify-content: center;
+    padding-top: 10px;
 }
 
 .btn1 {
     text-decoration: none;
     color:beige;
+    font-size: 18px;
     margin-inline: 40px;
     font-weight: 500;
 }
@@ -107,15 +108,33 @@ html {
 .icons {
     height:fit-content;
     width: fit-content;
+    padding-top: 10px;
+    align-items: right;
+    padding-left: 600px;
 }
 
 ion-icon {
     color: rgb(238, 238, 245);
     justify-content: space-between;
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
     margin-inline: 10px;
     --ionicon-stroke-width: 46px;
+}
+
+.signup {
+    font-size: 14px;
+    font-weight: 600;
+    color: whitesmoke;
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    justify-content: center;
+    border-color: antiquewhite;
+    border-width: 1px;
+    margin-right: 100px;
+    background: rgb(6, 2, 83);
+    background: linear-gradient(90deg, rgb(8, 1, 77) 0%, rgb(29, 15, 158) 64%, rgb(8, 1, 77) 100%);
 }
 
 #bgText {
