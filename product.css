@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    cursor: url('cx.png'), auto;
 } 
 
 .page1 {
