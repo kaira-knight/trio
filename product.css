@@ -33,16 +33,12 @@ body {
 .logo {
     margin-top: 9px;
     font-size: 25px;
-    color: aliceblue;
     font-weight: 600;
     margin-left: 5px;
-}
-
-.subLogo {
-    margin-left: -260px;
-    font-size: 25px;
-    color: aliceblue;
-    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: -webkit-linear-gradient(#f2eff3, #b567f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header-menu {
