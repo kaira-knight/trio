@@ -346,3 +346,241 @@ display: flex;
   line-height: 50px;
   font-weight: 600;
 }
+/* PAGE 02 ENDS HERE AND PAGE 03 STARTS HERE  */
+
+.pg3 {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(6, 2, 83, 1) 0%, rgba(2, 2, 51, 1) 44%, rgba(1, 16, 19, 1) 100%);
+}
+
+.p3h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(#f2eff3, #b567f5);
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.p3xbox {
+    margin: 0;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    zoom: 140%;
+}
+
+.pg3ls1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 6%;
+    margin-left: 23%;
+    height: 75px;
+    width: 414px;
+    border-radius: 0px 30px 0px 0px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.pg3ls1:before {
+    visibility: visible;
+    position: absolute;
+    top: -16px;
+    left: -110px;
+    content: "Switch Key/\aReturn home";
+    white-space: pre;
+    color: white;
+}
+
+.pg3ls2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 11%;
+    margin-left: 23%;
+    height: 70px;
+    width: 370px;
+    border-radius: 0px 30px 0px 0px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.pg3ls2:before {
+    position: absolute;
+    top: -10px;
+    left: -70px;
+    content: "Return";
+    color: white;
+}
+
+.pg3ls3 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 17%;
+    margin-left: 23%;
+    height: 40px;
+    width: 240px;
+    border-radius: 0px 0px 30px 0px;
+    border: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.pg3ls3:before {
+    position: absolute;
+    top: 29px;
+    left: -95px;
+    content: "Movement";
+    color: white;
+}
+
+.pg3ls4 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 24%;
+    margin-left: 23%;
+    height: 1px;
+    width: 320px;
+    border: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.pg3ls4:before {
+    position: absolute;
+    top: -9px;
+    left: -90px;
+    content: "Slip Drive";
+    color: white;
+}
+
+.pg3ls5 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 23%;
+    margin-left: 23%;
+    height: 100px;
+    width: 500px;
+    border-radius: 0px 0px 30px 0px;
+    border: 1px solid white;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.pg3ls5:before {
+    position: absolute;
+    top: 90px;
+    left: -53px;
+    content: "Aim";
+    color: white;
+}
+
+.pg3rs1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 6%;
+    margin-left: 53%;
+    height: 155px;
+    width: 400px;
+    border-radius: 30px 0px 0px 0px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.pg3rs1:before {
+    position: absolute;
+    top: -9px;
+    left: 425px;
+    content: "Start";
+    color: white;
+}
+
+.pg3rs2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10%;
+    margin-left: 61%;
+    height: 40px;
+    width: 275px;
+    border-radius: 30px 0px 0px 0px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.pg3rs2:before {
+    position: absolute;
+    top: -17px;
+    left: 300px;
+    content: "Body Sensor\a Tracking";
+    white-space: pre;
+    color: white;
+}
+
+.pg3rs3 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 16%;
+    margin-left: 59%;
+    width: 305px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px solid white;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.pg3rs3:before {
+    position: absolute;
+    top: -17px;
+    left: 330px;
+    content: "Install Delete\a Game";
+    white-space: pre;
+    color: white;
+}
+
+.pg3rs4 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 17%;
+    margin-left: 65%;
+    height: 95px;
+    width: 212px;
+    border-radius: 0px 0px 0px 30px;
+    border: 1px solid white;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.pg3rs4:before {
+    position: absolute;
+    top: 84px;
+    left: 240px;
+    content: "Back";
+    color: white;
+}
+
+.pg3rs5 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 19%;
+    margin-left: 61.5%;
+    height: 140px;
+    width: 265px;
+    border-radius: 0px 0px 0px 30px;
+    border: 1px solid white;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.pg3rs5:before {
+    position: absolute;
+    top: 130px;
+    left: 293px;
+    content: "Confirm";
+    color: white;
+}
